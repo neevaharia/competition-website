@@ -1,6 +1,7 @@
-<!doctype>
-<html>
-<head>
-     <title> Bake First </title>
-</head>
-</html>
+body{
+  font-family: sans-serif;
+}
+
+h1{
+  color: blue;
+}
