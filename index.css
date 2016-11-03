@@ -6,7 +6,7 @@ h1{
   color: blue;
 }
 
-ul li{
+.nav li{
     display: inline-block;
     padding-right: 10px;
 }
