@@ -3,6 +3,6 @@ body{
 }
 
 ul.menu li{
-	display: inline-block
+	display: inline-block;
 	padding-right:10px;
 }
