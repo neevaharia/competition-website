@@ -5,3 +5,8 @@ body{
 h1{
   color: blue;
 }
+
+ul.nav li{
+    display: inline-block;
+    padding-right: 10px;
+}
