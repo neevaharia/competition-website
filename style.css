@@ -1,10 +1,10 @@
 body{
   font-family: sans-serif;}
 
-h2 {
+h1 {
   color: #d54d7b;
   font-family: "Great Vibes", cursive;
-  font-size: 165px; line-height: 160px;
+  font-size: 16px; line-height: 16px;
   font-weight: normal;
   margin-bottom: 0px;
   margin-top: 40px;
@@ -20,8 +20,7 @@ h2 {
 
 ul.menu li{
 	display: inline-block;
-	padding-right:10px;
-	background-color: #ffcccc;}
+	padding-right:10px;}
 
 .menu a{
 	color:black;
