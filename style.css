@@ -36,6 +36,12 @@ ul .menu{
   text-align: center;
 }
 
+.hline {
+  width:100%;
+  height:1px;
+  background: black
+}
+
 .subtitles {
   text-align: left;
 }
