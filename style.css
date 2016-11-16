@@ -30,3 +30,12 @@ ul.menu li{
 .menu{text-align: center;}
 
 .subtitles {text-align: left;}
+
+.jumbotron {
+padding-top: 90px;
+min-height: 600px;
+margin-bottom: 0;
+background-image: url('Images/White-wooden-background-photo.jpg');
+background-size: cover;
+background-attachment: fixed;
+}
