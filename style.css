@@ -34,7 +34,7 @@ ul.menu li{
 
 .menu{
   text-align: center;
-  color: #ff99cc;
+  color: #ffcc99;
 }
 
 .subtitles {
@@ -42,7 +42,7 @@ ul.menu li{
 }
 
 .jumbotron {
-  width: 90%;
+  width: 100%;
   max-width: 1024px;
   padding-top: 90px;
   min-height: 300px;
