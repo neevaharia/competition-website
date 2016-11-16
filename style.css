@@ -3,6 +3,17 @@ body{
   text-align: center;
 }
 
+h2 {
+  color: black;
+  font-family: "Tahoma";
+  font-size: 30px; line-height: 20px;
+  font-weight: normal;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  text-align: center;
+  font-stretch: ultra-condensed;
+}
+
 h1 {
   color: black;
   font-family: "Tahoma";
