@@ -104,3 +104,8 @@ hr {
 .map {
   text align: center;
 }
+
+ul.address li{
+	display: list-item;
+  padding-bottom: 10px;
+}
