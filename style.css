@@ -52,10 +52,6 @@ ul .menu{
   text-align: center;
 }
 
-.menu a:active {
-  color: #ff9999;
-}
-
 .carousel {
   width:90%;
 	max-width: 1024px;
