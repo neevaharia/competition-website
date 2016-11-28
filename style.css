@@ -103,6 +103,7 @@ hr {
 
 .map {
   text align: center;
+  padding-bottom: 20px;
 }
 
 ul.address li{
@@ -110,4 +111,7 @@ ul.address li{
   padding-bottom: 10px;
   text-decoration: none;
   text-align: left;
+  margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
 }
