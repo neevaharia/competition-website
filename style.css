@@ -108,10 +108,9 @@ hr {
 
 ul.address li{
 	display: list-item;
-  padding-bottom: 10px;
   text-decoration: none;
   text-align: left;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
     font-size: 21px;
     font-weight: 200;
 }
