@@ -108,4 +108,6 @@ hr {
 ul.address li{
 	display: list-item;
   padding-bottom: 10px;
+  text-decoration: none;
+  text-align: left;
 }
