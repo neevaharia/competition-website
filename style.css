@@ -143,4 +143,9 @@ ul.quote li{
   font-size: 15px;
   font-weight: 200;
   text-align: left;
+  font-stretch: ultra-condensed;
+}
+
+blockquote {
+  border-left: #e6e6e6
 }
