@@ -83,9 +83,9 @@ hr {
 #jumbotron-index-two {
   width: 100%;
   max-width: 1024px;
-  padding-top: 10px;
+  padding-top: 15px;
   min-height: 300px;
-  margin-bottom: 0;
+  margin-bottom: 15px;
   background-color: #e6e6e6;
 }
 
