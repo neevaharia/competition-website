@@ -86,7 +86,7 @@ hr {
     min-height: 300px;
     margin-bottom: 0;
     background-image: url('Images/Sewing-background-image.jpg');
-    background-size: cover;
+    background-size: contain;
     }
 
   .container {
@@ -120,13 +120,6 @@ ul.address li{
 	display: list-item;
   text-decoration: none;
   text-align: left;
-  margin-bottom: 10px;
-  font-size: 21px;
-  font-weight: 200;
-}
-
-.attire-jumbotron-text {
-  text-align: right;
   margin-bottom: 10px;
   font-size: 21px;
   font-weight: 200;
