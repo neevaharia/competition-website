@@ -17,10 +17,10 @@ h2 {
 h1 {
   color: black;
   font-family: "Tahoma";
-  font-size: 20px; line-height: 20px;
+  font-size: 20px; line-height: 30px;
   font-weight: normal;
   margin-bottom: 40px;
-  margin-top: 40px;
+  margin-top: 20px;
   text-align: center;
   font-stretch: ultra-condensed;
 }
@@ -76,8 +76,8 @@ hr {
   padding-top: 90px;
   min-height: 300px;
   margin-bottom: 0;
-  background-image: url('Images/White-wooden-background-photo-lightened.png');
-  background-size: cover;
+  background-image: url('Images/White-wooden-background-photo-strip.jpg');
+  background-size: contain;
   /* background-color: #e6e6e6;*/
 }
 
