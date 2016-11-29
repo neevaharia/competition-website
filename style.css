@@ -70,7 +70,7 @@ hr {
   text-align: left;
 }
 
-.jumbotron-index {
+#jumbotron-index {
   width: 100%;
   max-width: 1024px;
   padding-top: 90px;
@@ -79,7 +79,7 @@ hr {
   background-color: #e6e6e6;
   }
 
-  .jumbotron-attire {
+  #jumbotron-attire {
     width: 100%;
     max-width: 1024px;
     padding-top: 90px;
@@ -121,6 +121,13 @@ ul.address li{
   text-decoration: none;
   text-align: left;
   margin-bottom: 10px;
-    font-size: 21px;
-    font-weight: 200;
+  font-size: 21px;
+  font-weight: 200;
+}
+
+.attire-jumbotron-text {
+  text-align: right;
+  margin-bottom: 10px;
+  font-size: 21px;
+  font-weight: 200;
 }
