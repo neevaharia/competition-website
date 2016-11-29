@@ -140,8 +140,7 @@ ul.address li{
 ul.quote li{
 	display: list-item;
   text-decoration: none;
-  text-align: left;
-  margin-bottom: 10px;
-  font-size: 21px;
+  font-size: 15px;
   font-weight: 200;
+  text-align: left;
 }
