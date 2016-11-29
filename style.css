@@ -1,5 +1,22 @@
-body{
+body {
   font-family: sans-serif;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+
+.container {
+    max-width: 90%;
+    text-align: center;
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.wrapper{
+	width:90%;
+	max-width: 1024px;
+	margin:20px auto;
   text-align: center;
 }
 
@@ -25,12 +42,6 @@ h1 {
   font-stretch: ultra-condensed;
 }
 
-.wrapper{
-	width:90%;
-	max-width: 1024px;
-	margin:20px auto;
-  text-align: center;
-}
 
 ul.menu li{
 	display: inline-block;
@@ -91,7 +102,7 @@ hr {
 }
 
 
-  #jumbotron-attire {
+#jumbotron-attire {
     width: 100%;
     max-width: 1024px;
     padding-top: 90px;
@@ -99,15 +110,8 @@ hr {
     margin-bottom: 0;
     background-image: url('Images/Sewing-background-image.jpg');
     background-size: contain;
-    }
+}
 
-  .container {
-    max-width: 90%;
-    text-align: center;
-    min-height: 10em;
-    display: table-cell;
-    vertical-align: middle;
-  }
 
 .img {
     position: relative;
