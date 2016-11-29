@@ -76,8 +76,11 @@ hr {
   padding-top: 90px;
   min-height: 300px;
   margin-bottom: 0;
-  background-color: #e6e6e6;
-  }
+  background-image: url('Images/White-wooden-background-photo-lightened.png');
+  background-size: cover;
+  /* background-color: #e6e6e6;*/
+}
+
 
   #jumbotron-attire {
     width: 100%;
