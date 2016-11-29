@@ -136,3 +136,12 @@ ul.address li{
   font-size: 21px;
   font-weight: 200;
 }
+
+ul.quote li{
+	display: list-item;
+  text-decoration: none;
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 21px;
+  font-weight: 200;
+}
