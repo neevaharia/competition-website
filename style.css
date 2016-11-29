@@ -78,7 +78,15 @@ hr {
   margin-bottom: 0;
   background-image: url('Images/White-wooden-background-photo-strip.jpg');
   background-size: contain;
-  /* background-color: #e6e6e6;*/
+}
+
+#jumbotron-index-two {
+  width: 100%;
+  max-width: 1024px;
+  padding-top: 10px;
+  min-height: 300px;
+  margin-bottom: 0;
+  background-color: #e6e6e6;
 }
 
 
