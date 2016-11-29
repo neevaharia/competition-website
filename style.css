@@ -70,7 +70,7 @@ hr {
   text-align: left;
 }
 
-.jumbotron {
+.jumbotron-index {
   width: 100%;
   max-width: 1024px;
   padding-top: 90px;
@@ -78,6 +78,16 @@ hr {
   margin-bottom: 0;
   background-color: #e6e6e6;
   }
+
+  .jumbotron-attire {
+    width: 100%;
+    max-width: 1024px;
+    padding-top: 90px;
+    min-height: 300px;
+    margin-bottom: 0;
+    background-image: url('Images/Sewing-background-image.jpg');
+    background-size: cover;
+    }
 
   .container {
     max-width: 90%;
