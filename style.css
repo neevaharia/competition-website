@@ -31,10 +31,11 @@ h2 {
   font-stretch: ultra-condensed;
 }
 
+
 h1 {
   color: black;
   font-family: "Tahoma";
-  font-size: 20px; line-height: 30px;
+  font-size: 20px; line-height: 35px;
   font-weight: normal;
   margin-bottom: 40px;
   margin-top: 20px;
@@ -42,6 +43,16 @@ h1 {
   font-stretch: ultra-condensed;
 }
 
+.flowers-h1 h1 {
+  color: black;
+  font-family: "Tahoma";
+  font-size: 20px; line-height: 35px;
+  font-weight: normal;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  text-align: center;
+  font-stretch: ultra-condensed;
+}
 
 ul.menu li{
 	display: inline-block;
