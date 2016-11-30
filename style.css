@@ -197,3 +197,8 @@ blockquote {
   margin-bottom: -3px;
   margin-top: 3px;
 }
+
+#flower-gallery {
+  padding-bottom: 20px; 
+  padding-top: 20px
+}
