@@ -1,5 +1,22 @@
-body{
+body {
   font-family: sans-serif;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+
+.container {
+    max-width: 90%;
+    text-align: center;
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.wrapper{
+	width:90%;
+	max-width: 1024px;
+	margin:20px auto;
   text-align: center;
 }
 
@@ -14,22 +31,27 @@ h2 {
   font-stretch: ultra-condensed;
 }
 
+
 h1 {
   color: black;
   font-family: "Tahoma";
-  font-size: 20px; line-height: 20px;
+  font-size: 20px; line-height: 35px;
   font-weight: normal;
   margin-bottom: 40px;
-  margin-top: 40px;
+  margin-top: 20px;
   text-align: center;
   font-stretch: ultra-condensed;
 }
 
-.wrapper{
-	width:90%;
-	max-width: 1024px;
-	margin:20px auto;
+.flowers-h1 h1 {
+  color: black;
+  font-family: "Tahoma";
+  font-size: 20px; line-height: 35px;
+  font-weight: normal;
+  margin-bottom: 40px;
+  margin-top: 20px;
   text-align: center;
+  font-stretch: ultra-condensed;
 }
 
 ul.menu li{
@@ -70,20 +92,113 @@ hr {
   text-align: left;
 }
 
-.jumbotron {
+#jumbotron-index {
   width: 100%;
   max-width: 1024px;
   padding-top: 90px;
   min-height: 300px;
   margin-bottom: 0;
-  background-image: url('Images/White-wooden-background-photo.jpg');
-  background-size: cover;
-  }
+  background-image: url('Images/White-wooden-background-photo-strip.jpg');
+  background-size: contain;
+}
 
-  .container {
-    max-width: 90%;
-    text-align: center;
-    min-height: 10em;
-    display: table-cell;
-    vertical-align: middle;
-  }
+#jumbotron-index-two {
+  width: 100%;
+  max-width: 1024px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  min-height: 300px;
+  margin-bottom: 0px;
+  background-color: #e6e6e6;
+}
+
+
+#jumbotron-attire {
+    width: 100%;
+    max-width: 1024px;
+    padding-top: 90px;
+    min-height: 300px;
+    margin-bottom: 0;
+    background-image: url('Images/Sewing-background-image.jpg');
+    background-size: contain;
+}
+
+#jumbotron-flowers {
+    width: 100%;
+    max-width: 1024px;
+    padding-top: 90px;
+    min-height: 300px;
+    margin-bottom: 0;
+    background-image: url('Images/Flowers-1-crop.jpg');
+    background-size: contain;
+}
+
+.img {
+    position: relative;
+    float: left;
+    width:  100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+.subheadings {
+  text-align: left;
+}
+
+.map {
+  text align: center;
+  padding-bottom: 20px;
+}
+
+ul.address li{
+	display: list-item;
+  text-decoration: none;
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 21px;
+  font-weight: 200;
+}
+
+.contact-button {
+  float: left;
+  padding-top: 10px;
+}
+
+ul.quote li{
+	display: list-item;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 200;
+  text-align: left;
+  font-stretch: ultra-condensed;
+}
+
+blockquote {
+  border-left: #e6e6e6
+}
+
+.btn {
+    background: #f1f1f1;
+    color: #000000;
+    padding: 15px;
+    border-radius: 24px;
+    box-shadow: 0 3px 0 0 #ff8080;
+}
+
+.btn:hover {
+    background: #ff9999;
+}
+
+.btn:active {
+  background: ##ffb3b3;
+  box-shadow: none;
+  margin-bottom: -3px;
+  margin-top: 3px;
+}
+
+#flower-gallery {
+  padding-bottom: 30px; 
+  padding-top: 30px
+}

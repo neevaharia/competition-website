@@ -1,7 +1,7 @@
 <!doctype>
 <html>
 <head>
-     <title> Contact Us </title>
+     <title> Wedding Planner </title>
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
      <link rel="stylesheet" type="text/css" href="style.css">
@@ -10,15 +10,15 @@
 <body>
 
 <div class='wrapper'>
-  <div id='logo-contact' class='logo'>
-    <a href="index.html">
+<div id= 'logo' class='logo'>
+  <a href="index.html">
   <img src="Images/Wedding First Logo.png" alt="Wedding first logo, click to go to homepage">
-</a>
-  </div>
+  </a>
+</div>
 
 <hr>
   <ul class="menu">
-      <li><a href="index.html">ABOUT</a></li>
+      <li><a href="#About">ABOUT</a></li>
       <li><a href="Attire.html">ATTIRE</a></li>
       <li><a href="Venues.html">VENUES</a></li>
       <li><a href="Flowers.html">FLOWERS</a></li>
@@ -28,50 +28,93 @@
   </ul>
 <hr>
 
-<div class="subheadings">
-  <img src="Images/Visit the studio.png" alt="Subheading: Visit the studio">
+
+<div class='container'>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="Images/Carousel-image-1.png" alt="Picture of bridesmaids">
+    </div>
+
+    <div class="item">
+      <img src="Images/Carousel-image-2.png" alt="Picture of flowers">
+    </div>
+
+    <div class="item">
+      <img src="Images/Carousel-image-3.png" alt="Picture of reception">
+    </div>
+  </div><!-- carousel-inner -->
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div> <!--closing container div-->
+
+
+<div id= "About" class="subheadings">
+  <img src="Images/Who-are-we-subheading.png" alt="Subheading: Who are we?">
 </div>
 
-<div class='map'>
-  <img src="Images/contact-map-edit.jpg" alt="Map">
-</div>
 
-<div class='wrapper'>
-<div class="row">
-  <div class="col-xs-6">
-
-  <ul class='address'  style="list-style-type:none">
-    <li><strong>Wedding First Studio</li>
-    <li>Albion Courtyard</li>
-    <li>Greenhill Rents</li>
-    <li>Smithfield</li>
-    <li>London</li>
-    <li>EC1M 6PQ</li>
-  </ul>
-
-</div><!--closing col-xs-6-->
-
-  <div class="col-xs-6">
-
-    <ul class='address'style="list-style-type:none">
-    <li><strong>Call us</li>
-    <li>+44 (0)20 7608 0052 </li>
-    <br>
-    <li><strong>Email us</li>
-    <li>weddingfirst@gmail.com </li>
-
-    <div class='contact-button'>
-    <p>
-      <a href="Bookings.html"
-        <button type="button" class="btn"><strong>Make a booking</strong></button>
-      </a>
-    </p>
-  </div><!--closing contact-button-->
-
-  </div><!--closing col-xs-6-->
-</div><!--closing row-->
+  <div id='jumbotron-index' class='jumbotron'>
+    <div class='container'>
+          <p> Your wedding day is one of the most important days of your life. So why go through all the stress of organising it? We offer the happy couple support, guidance and inspirational ideas for the big day. Choose from the wide range we have to offer ranging from stunning wedding dresses to amazingly designed cakes. We have everything to offer and want to make your wedding planning as straight forward as possible.</p>
+    </div><!-- .container -->
+  </div><!-- .jumbotron -->
 </div><!--closing wrapper-->
 
+<div class='wrapper'>
+  <div class= 'container'>
+  <a href="Venues.html">
+  <img src="Images/index-venue-image-edited.jpg" alt="Picture of a bride and groom in venue, click to go to Venues page">
+  </a>
+  </div><!-- .container -->
+</div><!--closing wrapper-->
+
+<div class= 'wrapper'>
+  <div id='jumbotron-index-two' class="row">
+    <div class="col-md-4">
+      <blockquote>
+          <h1>"A wedding dress is both an intimate and personal for a woman - it must reflect the personality and style of the bride"</h1>
+        <ul class='quote'  style="list-style-type:none">
+          <li><strong>Carolina Herrera</strong>, </li>
+          <li>Venezuelan-American fashion designer.</li>
+        </ul>
+      </blockquote>
+    </div><!--closing col-md-4-->
+
+    <div class="col-md-4">
+      <img src="Images/Carolina-Herrera-portrait.jpg" alt="portrait of Carolina Herrera" class="img-circle">
+    </div><!--closing col-md-4-->
+
+    <div class="col-md-4">
+      <blockquote>
+        <h1>"You feel very romantic when you're in a ball gown. Everyone should wear one once in a while"</h1>
+      </blockquote>
+      <p>
+        <a href="Attire.html"
+          <button type="button" class="btn"><strong>Find inspiration in our gallery</strong></button>
+        </a>
+      </p>
+    </div><!--closing col-md-4-->
+
+  </div><!--closing row-->
+</div><!--closing wrapper-->
 
 <!--............................Footer............................-->
 
@@ -82,9 +125,9 @@
     <div class="nav-wrapper back-to-top-nav">
       <nav>
         <div class="back-to-top">
-          <a href="#logo-contact">
+          <a href="#logo">
             <p>
-            <a href="Contact.html"
+            <a href="index.html"
               <button type="button" class="btn"><strong>Back to Top</strong></button>
             </a>
           </p>
@@ -198,9 +241,12 @@
 <!--............................Footer............................-->
 
 
-
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+<script>
+  $('.carousel').carousel();
+</script>
 
 </body>
- </html>
+
+</html>
