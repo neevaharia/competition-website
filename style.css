@@ -112,6 +112,15 @@ hr {
     background-size: contain;
 }
 
+#jumbotron-flowers {
+    width: 100%;
+    max-width: 1024px;
+    padding-top: 90px;
+    min-height: 300px;
+    margin-bottom: 0;
+    background-image: url('Images/Flowers-1-crop.jpg');
+    background-size: contain;
+}
 
 .img {
     position: relative;
