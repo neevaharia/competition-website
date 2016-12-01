@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family:  'Trocchi', serif;
   text-align: center;
   background-color: #ffffff;
 }
@@ -21,8 +21,8 @@ body {
 }
 
 h2 {
-  color: black;
-  font-family: "Tahoma";
+  color: color: #d54d7b;
+  font-family: "Trocchi" serif;
   font-size: 30px; line-height: 20px;
   font-weight: normal;
   margin-bottom: 20px;
@@ -31,11 +31,10 @@ h2 {
   font-stretch: ultra-condensed;
 }
 
-
 h1 {
-  color: black;
-  font-family: "Tahoma";
-  font-size: 20px; line-height: 35px;
+   color: #2B1B17; 
+  font-size: 29px;
+  font-family: "Libre Baskerville", serif; 
   font-weight: normal;
   margin-bottom: 40px;
   margin-top: 20px;
@@ -93,11 +92,13 @@ hr {
 }
 
 #jumbotron-index {
-  width: 100%;
-  max-width: 1024px;
-  padding-top: 90px;
-  min-height: 300px;
-  margin-bottom: 0;
+  color: #2B1B17; 
+  font-size: 29px;
+  font-family: "Libre Baskerville", serif; 
+  line-height: 45px; 
+  text-align: center; 
+  text-shadow: 0 1px 1px #fff;
+  padding-top: 20px;
   background-image: url('Images/White-wooden-background-photo-strip.jpg');
   background-size: contain;
 }
@@ -201,4 +202,31 @@ blockquote {
 #flower-gallery {
   padding-bottom: 30px; 
   padding-top: 30px
+}
+
+#social-buttons button {
+
+color: #2B1B17;
+
+}
+
+.btn-twitter {
+
+background-color: #E77471;
+border-color: #2B1B17;
+
+}
+
+.btn-facebook {
+
+background-color: #E77471;
+border-color: #2B1B17;
+
+}
+
+.btn-pinterest {
+
+background-color: #E77471;
+border-color: #2B1B17;
+
 }
