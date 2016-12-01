@@ -133,6 +133,16 @@ hr {
     background-size: contain;
 }
 
+#jumbotron-bakery {
+    width: 100%;
+    max-width: 1024px;
+    padding-top: 90px;
+    min-height: 300px;
+    margin-bottom: 0;
+    background-image: url('Images/Bakery-background-crop.jpg');
+    background-size: contain;
+}
+
 .img {
     position: relative;
     float: left;
@@ -199,6 +209,6 @@ blockquote {
 }
 
 #flower-gallery {
-  padding-bottom: 30px; 
+  padding-bottom: 30px;
   padding-top: 30px
 }
