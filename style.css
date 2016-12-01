@@ -256,7 +256,7 @@ ul.quote li{
 }
 
 blockquote {
-  border-left: #e6e6e6
+  border-left: #e6e6e6;
 }
 
 /*.......................index quote......................*/
@@ -282,4 +282,71 @@ hr {
 
 .subtitles {
   text-align: left;
+}
+
+#recipes ul li {
+  text-align: left;
+  display: list-item;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 21px;
+  font-weight: 200;
+}
+
+#recipes {
+  display: list-item;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 21px;
+  font-weight: 200;
+}
+
+#vanilla-cupcakes {
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #ffe6e6;
+  font-family: 'helvetica';
+  font-size: 21px;
+  font-weight: 200;
+}
+
+#chocolate-indulgence-petits-fours {
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #ffe6e6;
+  font-size: 21px;
+  font-weight: 200;
+  font-family: 'helvetica';
+}
+
+#chocolate-cupcakes {
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #ffe6e6;
+  font-family: 'helvetica';
+  font-size: 21px;
+  font-weight: 200;
+}
+
+#recipe-menu p {
+	display: inline-block;
+	padding-right:20px;
+}
+
+
+#recipe-menu a{
+	color:black;
+  text-decoration: none;
+  font-family: "Libre Baskerville", serif;
+}
+
+#recipe-menu a:hover {
+  color: #ff9999;
+}
+
+#recipe-menu{
+  text-align: center;
 }
