@@ -1,5 +1,5 @@
 body {
-  font-family:  'Trocchi', serif;
+  font-family:  'Helvetica';
   text-align: center;
   background-color: #ffffff;
 }
@@ -32,9 +32,9 @@ h2 {
 }
 
 h1 {
-   color: #2B1B17; 
+   color: #2B1B17;
   font-size: 29px;
-  font-family: "Libre Baskerville", serif; 
+  font-family: "Libre Baskerville", serif;
   font-weight: normal;
   margin-bottom: 40px;
   margin-top: 20px;
@@ -52,6 +52,8 @@ h1 {
   text-align: center;
   font-stretch: ultra-condensed;
 }
+
+/*...................menu panel............................*/
 
 ul.menu li{
 	display: inline-block;
@@ -73,33 +75,21 @@ ul .menu{
   text-align: center;
 }
 
-.carousel {
-  width:90%;
-	max-width: 1024px;
-	margin:20px auto;
-  text-align: center
-}
+/*...................menu panel............................*/
 
-hr {
-    border: 0;
-    height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
-}
-
-.subtitles {
-  text-align: left;
-}
+/*...................jumbotrons...........................*/
 
 #jumbotron-index {
-  color: #2B1B17; 
+  color: #2B1B17;
   font-size: 29px;
-  font-family: "Libre Baskerville", serif; 
-  line-height: 45px; 
-  text-align: center; 
+  font-family: "Helvetica";
+  font-weight: bolder;
+  line-height: 45px;
+  text-align: center;
   text-shadow: 0 1px 1px #fff;
-  padding-top: 20px;
-  background-image: url('Images/White-wooden-background-photo-strip.jpg');
+  padding-top: 50px;
+  vertical-align: middle;
+  background-image: url('Images/White-wooden-background-photo-lightened.png');
   background-size: contain;
 }
 
@@ -154,15 +144,69 @@ hr {
     background-size: contain;
 }
 
-.img {
-    position: relative;
-    float: left;
-    width:  100px;
-    height: 100px;
-    background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
+/*...................jumbotrons............................*/
+
+/*...................pink and white buttons............................*/
+
+.btn {
+    background: #f1f1f1;
+    color: #000000;
+    padding: 15px;
+    border-radius: 24px;
+    box-shadow: 0 3px 0 0 #ff8080;
 }
+
+.btn:hover {
+    background: #ff9999;
+}
+
+.btn:active {
+  background: ##ffb3b3;
+  box-shadow: none;
+  margin-bottom: -3px;
+  margin-top: 3px;
+}
+
+/*...................pink and white buttons............................*/
+
+/*...................social buttons............................
+
+#social-buttons button {
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 24px;
+  box-shadow: 0 3px 0 0 #000000;
+}
+
+#social-buttons  .btn:hover {
+    background: #000000;
+}
+
+#social-buttons  .btn:active {
+  background: ##ffb3b3;
+  box-shadow: none;
+  margin-bottom: -3px;
+  margin-top: 3px;
+}
+
+.btn-twitter {
+  background-color: #00acee;
+  border-color: #009ad5;
+}
+
+.btn-facebook {
+  background-color: #4868ac;
+  border-color: #314776;
+}
+
+.btn-pinterest {
+  background-color: #b62f26;
+  border-color: #b62f26;
+}
+
+...................social buttons............................*/
+
+/*.......................contact page......................*/
 
 .subheadings {
   text-align: left;
@@ -187,6 +231,21 @@ ul.address li{
   padding-top: 10px;
 }
 
+/*.......................contact page......................*/
+
+/*.......................index quote......................*/
+
+.img {
+    position: relative;
+    float: left;
+    width:  100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+
 ul.quote li{
 	display: list-item;
   text-decoration: none;
@@ -200,53 +259,27 @@ blockquote {
   border-left: #e6e6e6
 }
 
-.btn {
-    background: #f1f1f1;
-    color: #000000;
-    padding: 15px;
-    border-radius: 24px;
-    box-shadow: 0 3px 0 0 #ff8080;
-}
-
-.btn:hover {
-    background: #ff9999;
-}
-
-.btn:active {
-  background: ##ffb3b3;
-  box-shadow: none;
-  margin-bottom: -3px;
-  margin-top: 3px;
-}
+/*.......................index quote......................*/
 
 #flower-gallery {
   padding-bottom: 30px;
   padding-top: 30px
 }
 
-#social-buttons button {
-
-color: #2B1B17;
-
+.carousel {
+  width:90%;
+	max-width: 1024px;
+	margin:20px auto;
+  text-align: center
 }
 
-.btn-twitter {
-
-background-color: #E77471;
-border-color: #2B1B17;
-
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
-.btn-facebook {
-
-background-color: #E77471;
-border-color: #2B1B17;
-
-}
-
-.btn-pinterest {
-
-background-color: #E77471;
-border-color: #2B1B17;
-
+.subtitles {
+  text-align: left;
 }
