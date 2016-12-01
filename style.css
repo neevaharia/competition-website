@@ -1,5 +1,5 @@
 body {
-  font-family:  'Trocchi', serif;
+  font-family:  'Helvetica';
   text-align: center;
   background-color: #ffffff;
 }
@@ -32,9 +32,9 @@ h2 {
 }
 
 h1 {
-   color: #2B1B17; 
+   color: #2B1B17;
   font-size: 29px;
-  font-family: "Libre Baskerville", serif; 
+  font-family: "Libre Baskerville", serif;
   font-weight: normal;
   margin-bottom: 40px;
   margin-top: 20px;
@@ -92,14 +92,16 @@ hr {
 }
 
 #jumbotron-index {
-  color: #2B1B17; 
+  color: #2B1B17;
   font-size: 29px;
-  font-family: "Libre Baskerville", serif; 
-  line-height: 45px; 
-  text-align: center; 
+  font-family: "Helvetica";
+  font-weight: bolder;
+  line-height: 45px;
+  text-align: center;
   text-shadow: 0 1px 1px #fff;
-  padding-top: 20px;
-  background-image: url('Images/White-wooden-background-photo-strip.jpg');
+  padding-top: 50px;
+  vertical-align: middle;
+  background-image: url('Images/White-wooden-background-photo-lightened.png');
   background-size: contain;
 }
 
