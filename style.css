@@ -143,6 +143,16 @@ hr {
     background-size: contain;
 }
 
+#jumbotron-venues {
+    width: 100%;
+    max-width: 1024px;
+    padding-top: 90px;
+    min-height: 300px;
+    margin-bottom: 0;
+    background-image: url('Images/Venue-background-crop.jpg');
+    background-size: contain;
+}
+
 .img {
     position: relative;
     float: left;
