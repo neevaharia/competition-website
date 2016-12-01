@@ -283,3 +283,20 @@ hr {
 .subtitles {
   text-align: left;
 }
+
+#recipes ul li {
+  text-align: left;
+  display: list-item;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 21px;
+  font-weight: 200;
+}
+
+#recipes {
+  display: list-item;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 21px;
+  font-weight: 200;
+}
